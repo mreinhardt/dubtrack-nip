@@ -1,0 +1,11 @@
+@media screen and (min-width: 72em) {
+    #main-room .right_section {
+        width: 47rem;
+    }
+    #main-room .left_section {
+        padding-right: 51rem;
+    }
+    #main-room .chat-messages {
+        zoom: 90%;
+    }
+}
