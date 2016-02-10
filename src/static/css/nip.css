@@ -1,11 +1,19 @@
 @media screen and (min-width: 72em) {
-    #main-room .right_section {
-        width: 47rem;
+    #main-room .right_section { width: 47rem; }
+    #main-room .left_section { padding-right: 51rem; }
+    #main-room .chat-messages { zoom: 90%; }
+
+    #main_player .player_header span {
+        font-size: 0.425rem;
+    	padding: 0.7rem 1rem;
     }
-    #main-room .left_section {
-        padding-right: 51rem;
+    #main_player .player_sharing { zoom: 66%; }
+    #main_player .play-song-link-container { font-size: 75%; }
+    #main_player .play-song-link-container > div {
+		padding: 0.5rem 1rem;
+        line-height: 2;
     }
-    #main-room .chat-messages {
-        zoom: 90%;
+    #main_player .play-song-link-container > div [class^=icon-] {
+		position: relative; top: 0.2rem;
     }
 }
