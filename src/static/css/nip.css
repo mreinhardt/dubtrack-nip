@@ -16,4 +16,8 @@
     #main_player .play-song-link-container > div [class^=icon-] {
 		position: relative; top: 0.2rem;
     }
+    
+    #chat .chat-container .chat-messages .chat-main li .activity-row img {
+        max-width: 120px; max-height: 180px;
+    }
 }
